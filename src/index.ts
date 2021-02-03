@@ -5,5 +5,5 @@ const argv = yargs(hideBin(process.argv)).argv
 console.log('Started index.ts...')
 
 console.log('Entered inputs:')
-console.log(`username: ${argv.username}`)
-console.log(`password: ${argv.password}`)
+console.log(`username: ${argv.username}, length: ${argv.username.length}`)
+console.log(`password: ${argv.password}, length: ${argv.password.length}`)
